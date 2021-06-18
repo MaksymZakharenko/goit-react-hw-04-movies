@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    color: rgb(154, 158, 148);
+    font-size: 40px;
+}
+
+.setka {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.li {
+  margin: 10px 10px;
+  font-size: 10px;
+  text-align: center;
+  color: brown;
+}
+
+.img {
+  z-index: 100;
+}

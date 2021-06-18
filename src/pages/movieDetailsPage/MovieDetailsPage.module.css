@@ -1,0 +1,54 @@
+.main {
+    margin: 10px 100px;
+}
+
+
+.block {
+    display: flex;
+}
+
+.title {
+    color: rgb(14, 53, 27);
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.overview {
+    margin: 0 100px;
+    width: 400px;
+}
+
+.item {
+    color: rgb(218, 168, 133);
+    font-weight: 900;
+}
+
+.overwiev_title {
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+.overwiev_text {
+    font-weight: 700;
+}
+
+.reviews {
+display: flex;
+}
+
+.goback {
+    background-color: rgb(175, 194, 221);;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(90, 87, 87);
+}
+
+.goback:hover {
+    background-color: rgb(218, 168, 133);
+}
