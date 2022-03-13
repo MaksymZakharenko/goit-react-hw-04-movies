@@ -22,6 +22,9 @@ class MovieDetails extends Component {
       `https://api.themoviedb.org/3/movie/${moviesId}?api_key=6e40e6f870b3f7c3f9fcc54179d0bae2&language=en-US`
     );
     this.setState({ ...response.data });
+
+    console.log(response.data);
+
   }
   handelClick = () => {
     const { location, history } = this.props;
@@ -29,7 +32,7 @@ class MovieDetails extends Component {
   };
 
   render() {
-    console.log(this.props.match.path);
+
     return (
       <>
         <div className={styles.main}>
