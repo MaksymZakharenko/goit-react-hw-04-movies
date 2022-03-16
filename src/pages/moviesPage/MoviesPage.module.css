@@ -3,11 +3,34 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+
 }
 
 .li {
   margin: 10px 10px;
   font-size: 10px;
   text-align: center;
+  color: brown;
+ }
+
+.li_title {
+  font-weight: 700;
+font-size: 20px;
+color: rgb(74, 74, 114);
+margin-bottom: 10px;
+font-family: fantasy;
+max-width: 300px;
+height: 48px;
+}
+
+.link {
+text-decoration: none;
+margin-bottom: 30px;
+border: 1px dashed black;
+margin-right: 5px;
+background-color: rgb(196, 174, 148);
+}
+
+.li_title:hover {
   color: brown;
 }

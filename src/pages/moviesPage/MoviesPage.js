@@ -59,6 +59,7 @@ class Movies extends Component {
         <ul className={styles.setka}>
           {data.map((item) => (
             <Link
+              className={styles.link}
               key={item.id}
               to={{
                 state: { from: this.props.location },
@@ -66,6 +67,7 @@ class Movies extends Component {
               }}
             >
               <li className={styles.li} key={item.id}>
+                <p className={styles.li_title}>{item.original_title}</p>
                 <img
                   src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}
                   alt={item.name}
